@@ -1,0 +1,28 @@
+.Months {
+  position: relative;
+  display: inline-block;
+  border: 2px solid #c5cae9;
+  background-color: transparent;
+  width: 200px;
+}
+
+.MonthsContent {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  color: #083EA7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.Months:hover .MonthsContent {
+  display: block;
+}
+
+@media(max-width: 576px) {
+  .Months {
+    display: none;
+  }
+}

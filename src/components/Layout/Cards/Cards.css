@@ -1,0 +1,15 @@
+.Cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+@media(max-width: 576px) {
+  .Cards {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,56 @@
+.Card {
+  text-align: center;
+  max-width: calc(100% * (1/3) - 20px - 1px);
+  flex: 1 auto;
+  background-color: #f8fdff;
+  margin: 20px 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  cursor: pointer;
+}
+
+.Card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.Card button {
+  margin: 10px 0px 0px 0px;
+  width: 100%;
+  height: 35px;
+  background-color: #000063;
+  color: #f8fdff;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  cursor: pointer;
+  font-family: "Raleway";
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.Card button:hover {
+  background-color: #1db954;
+}
+
+.Header {
+  color: #f8fdff;
+  background-color: #083EA7;
+  font-size: 32px;
+  font-style: italic;
+}
+
+.SubHeader {
+  font-size: 20px;
+  background-color: #c7daff;
+  padding: 10px 0px;
+}
+
+.Content {
+  font-size: 16px;
+  padding: 0px 10px;
+}
+
+@media(max-width: 576px) {
+  .Card {
+    max-width: 100%;
+  }
+}

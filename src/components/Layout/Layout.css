@@ -1,0 +1,9 @@
+.Layout {
+  margin: 0 auto;
+  background-color: #e3f2fd;
+  min-height: 800px;
+}
+
+@media(max-width: 576px) {
+
+}

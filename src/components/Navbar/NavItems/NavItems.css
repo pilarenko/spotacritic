@@ -1,0 +1,30 @@
+.NavItems {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  line-height: 16px;
+}
+
+.NavItems ul {
+  list-style-type: none;  
+  margin: 0 0 0 auto;
+  padding: 0;
+  display: flex;
+}
+
+.NavItems a {
+  color: #fff;
+  line-height: 32px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0px 20px;
+  float: right;
+}
+
+.NavItems h1 {
+  margin: 5px 0px 0px 0px;
+  padding: 0;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+}
