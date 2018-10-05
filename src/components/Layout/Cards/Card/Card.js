@@ -6,13 +6,13 @@ const card = (props) => {
   return (
     <div className={classes.Card}>
       <div className={classes.Header}>
-        {props.header}
+        {props.header} ({props.content}%) 
       </div>
       <div className={classes.SubHeader}>
         {props.subHeader}
       </div>
       <div className={classes.Content}>
-        <p>{props.content}</p>
+        <p>Lorem ipsum</p>
       </div>
       <button>Inject</button>
     </div>

@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    axios.get('https://spotacritic.firebaseio.com/albums.json')
+    axios.get('https://spotacritic.firebaseio.com/albums/-LO5FfbrZ1ESkI4Tu3HB.json')
     .then(response => {
       this.setState({albums: response.data})
     })
